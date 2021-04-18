@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Logistica</name>
+    </assembly>
+    <members>
+        <member name="M:Logistica.Controllers.LogisticsController.Get">
+            <summary>
+            Obtiene todos los registros de logistica
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Logistica.Controllers.LogisticsController.Get(System.Int32)">
+            <summary>
+            Obtiene un registro, se debe enviar un Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Logistica.Controllers.LogisticsController.Post(Logistica.Model.Logistic)">
+            <summary>
+            Crea un nuevo registro en logistica, se debe enviar la informacion del esquema
+            </summary>
+            <param name="logistic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Logistica.Controllers.LogisticsController.Put(System.Int32,Logistica.Model.Logistic)">
+            <summary>
+            Se actualiza un registro de losgistica, se debe enviar la estructura del esquema
+            </summary>
+            <param name="id"></param>
+            <param name="logistic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Logistica.Controllers.LogisticsController.Delete(System.Int32)">
+            <summary>
+            Se elimiena un registro de logistica, se debe enviar un Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

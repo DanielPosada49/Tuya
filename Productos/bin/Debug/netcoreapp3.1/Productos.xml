@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Productos</name>
+    </assembly>
+    <members>
+        <member name="M:Productos.Controllers.ProductsController.Get">
+            <summary>
+            Obtiene todos los prductos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Productos.Controllers.ProductsController.Get(System.Int32)">
+            <summary>
+            Obtiene un producto especifico, se debe enviar el Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Productos.Controllers.ProductsController.Post(Productos.Model.Product)">
+            <summary>
+            Se crea un nuevo producto, se debe enviar la estructura del esquema
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Productos.Controllers.ProductsController.Put(System.Int32,Productos.Model.Product)">
+            <summary>
+            Se Actualiza un producto, se debe enviar la estructura del esquema
+            </summary>
+            <param name="id"></param>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Productos.Controllers.ProductsController.Delete(System.Int32)">
+            <summary>
+            Se elimiena un producto del esquema, se debe enviar el Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+services:
+  logistica:
+    build:
+      context: C:\Users\daniel.posada\Desktop\Prueba Tuya\Tuya2\Tuya
+      dockerfile: Logistica/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: logistica
+    ports:
+    - target: 80
+version: '3.4'

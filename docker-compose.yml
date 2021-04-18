@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  logistica:
+    image: ${DOCKER_REGISTRY-}logistica
+    build:
+      context: .
+      dockerfile: Logistica/Dockerfile

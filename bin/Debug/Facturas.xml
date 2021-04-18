@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Facturas</name>
+    </assembly>
+    <members>
+        <member name="M:Facturas.Controllers.invoicesController.Get">
+            <summary>
+            Obtiene todas las facturas existentes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Facturas.Controllers.invoicesController.GetById(System.Int32)">
+            <summary>
+            Obtiene una factura especifica, se debe agregar el id de la factura
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Facturas.Controllers.invoicesController.Post(Facturar.Model.Invoice)">
+            <summary>
+            Crea una nueva factura, se deben enviar algunos datos en base de esquema
+            </summary>
+            <param name="invoice.Client.Client"></param>
+            <param name="invoice.Document.Document"></param>
+            <param name="invoice.ProductId.ProductId"></param>
+            <param name="invoice.Amount.Amount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Facturas.Controllers.invoicesController.Put(System.Int32,Facturar.Model.Invoice)">
+            <summary>
+            Se actualiza una factura, se debe enviar el id de la factura
+            </summary>
+            <param name="id"></param>
+            <param name="invoice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Facturas.Controllers.invoicesController.Delete(System.Int32)">
+            <summary>
+            Se elimina una factura, se debe enviar el id de la factura
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
